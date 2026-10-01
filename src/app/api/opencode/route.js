@@ -1,4 +1,4 @@
-import { auth } from "@/auth";
+import { auth } from "@/src/auth";
 import { connectDB } from "@/src/lib/db";
 import User from "@/src/models/User";
 import { decrypt } from "@/src/lib/crypto";
